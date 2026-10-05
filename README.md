@@ -5,7 +5,7 @@ This page contains the code used to estimate the parameters governing mitotic tr
 The code performs single-nucleus fitting of the MCP fluorescence signal to a mathematical equation composed of a sigmoidal decay (parameters kf, tm, tau) and an exponential decay term (ts and kappa).
 
 ## Contents
-- `scripts/fit_per_nucleus.R`: per-nucleus model fitting, goodness-of-fit, correlation analysis, diagnostic plots
+- `scripts/MCP_tracks_fitting_transcriptional_silencing_model.R`: per-nucleus model fitting, goodness-of-fit, correlation analysis, diagnostic plots
 
 ## Input format
 The MCP tracks are stored in an excel file, one tab per nucleus. Each tab contains columns relative to time, subtracted fluorescence intensity, normalized fluorescence intensity (additional decay in the code). Each sheet is named as date_embryonumber_nucleusletter (e.g. Aug08_1_a).

@@ -11,10 +11,10 @@ The code performs single-nucleus fitting of the MCP fluorescence signal to a mat
 The MCP tracks are stored in an excel file, one tab per nucleus. Each tab contains columns relative to time, subtracted fluorescence intensity, normalized fluorescence intensity (additional decay in the code). Each sheet is named as date_embryonumber_nucleusletter (e.g. Aug08_1_a).
 
 ## Usage
-Set the input file with the data and the output directory where you want to store the resuls. Run the script: the fitted parameters will be saved in an excel file, one raw per nucleus.
+Set the input file with the data and the output directory where you want to store the results. Run the script: the fitted parameters will be saved in an excel file, one raw per nucleus.
 
 ## Requirements
 R (version 4.3.2). Required packages are reported at the beginning of the code.
 
 ## Citation
-If you want to use this code, please contact us and cite us.
+If you want to use this code, please contact us and cite us (citation details will be added after publication).
